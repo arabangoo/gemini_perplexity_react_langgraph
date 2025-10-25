@@ -219,7 +219,7 @@ PERPLEXITY_API_KEY: ${PERPLEXITY_API_KEY}
 <br/>
 
 (6) 서비스 워크플로우   
-### 로컬 개발 모드 (run-all.bat 실행 시)   
+로컬 개발 모드 (run-all.bat 실행 시)   
 1. 사용자가 run-all.bat 더블클릭       
 2. 백엔드 CMD 창 열림      
 	- backend/.env 파일 읽음 (API 키 로드)      
@@ -292,6 +292,7 @@ cmd 창은 관리자 권한으로 실행해주는 것을 추천한다.
 [C:\실제 경로\ 경로의 run-all.bat 파일 수정]   
 - "실제 경로"라고 적힌 부분을 폴더가 있는 실제 경로로 바꿔서 기입한다.   
 <img width="800" height="400" alt="image_7" src="https://github.com/user-attachments/assets/ad3afd23-f957-44aa-9be8-7ad07a6b9a3a" />
+
 
 
 
