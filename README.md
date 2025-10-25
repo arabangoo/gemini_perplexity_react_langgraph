@@ -13,9 +13,9 @@
 (1) 윈도우 로컬 PC에서 서비스를 올려보도록 하겠다.   
 아래와 같은 명령어로 필수 프로그램의 버전을 먼저 확인해본다.          
    
-명령어 (1)  : python --version
-명령어 (2) : node --version
-명령어 (3) : npm --version
+명령어 (1)  : python --version   
+명령어 (2) : node --version   
+명령어 (3) : npm --version   
 <img width="500" height="160" alt="image_1" src="https://github.com/user-attachments/assets/c2453554-2cc6-42e4-b172-1acfe3b53084" />
 <br/><br/>
                    
@@ -292,6 +292,7 @@ cmd 창은 관리자 권한으로 실행해주는 것을 추천한다.
 [C:\실제 경로\ 경로의 run-all.bat 파일 수정]   
 - "실제 경로"라고 적힌 부분을 폴더가 있는 실제 경로로 바꿔서 기입한다.   
 <img width="800" height="400" alt="image_7" src="https://github.com/user-attachments/assets/ad3afd23-f957-44aa-9be8-7ad07a6b9a3a" />
+
 
 
 
