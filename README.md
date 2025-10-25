@@ -161,7 +161,7 @@ pip install -e .
 cd frontend
 npm install
 ```
-   
+<br/>   
 [run-backend.bat] - 백엔드 실행   
 ```txt
 cd backend
@@ -173,7 +173,7 @@ langgraph dev
 - FastAPI 서버 실행 (포트 2024 - 로컬 개발 모드 기본값)    
 - 핫 리로드 지원 (코드 수정하면 자동 재시작)   
 * Docker 배포시에는 포트 8123 사용
-
+<br/>
 [run-frontend.bat] - 프론트엔드 실행   
 ```txt
 cd frontend
@@ -184,13 +184,13 @@ npm run dev
 - Vite 개발 서버 시작 (포트 5173)   
 - React 앱 실행   
 - 핫 리로드 지원 (코드 수정하면 자동 재시작)
-
+<br/>
 [run-all.bat] - 전체 동시 실행   
 ```txt
 start "Backend" cmd /k "cd backend && langgraph dev"
 start "Frontend" cmd /k "cd frontend && npm run dev"
 ```
-
+<br/>
 [docker-deploy.bat] - Docker 배포, 로컬 실행시에는 필요 없음.   
 ```txt
 docker build -t gemini-fullstack-langgraph .
@@ -206,7 +206,7 @@ docker-compose up -d
 1. 로컬 개발이 아닌 실제 배포할 때   
 2. 서버에 올릴 때   
 3. 모든 걸 컨테이너로 격리하고 싶을 때
-   
+<br/>   
 [docker-compose.yml]
 ```txt
 environment:
@@ -290,6 +290,7 @@ cmd 창은 관리자 권한으로 실행해주는 것을 추천한다.
 [C:\실제 경로\ 경로의 run-all.bat 파일 수정]   
 - "실제 경로"라고 적힌 부분을 폴더가 있는 실제 경로로 바꿔서 기입한다.   
 <img width="800" height="400" alt="image_7" src="https://github.com/user-attachments/assets/ad3afd23-f957-44aa-9be8-7ad07a6b9a3a" />
+
 
 
 
