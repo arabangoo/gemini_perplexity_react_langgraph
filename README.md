@@ -266,12 +266,11 @@ cmd 창은 관리자 권한으로 실행해주는 것을 추천한다.
 (9) 위에서 말한 절차대로 윈도우 cmd 창에서 명령어를 실행한다.   
 cmd 창은 관리자 권한으로 실행해주는 것을 추천한다.   
 <img width="800" height="500" alt="image_2" src="https://github.com/user-attachments/assets/e4599165-16ab-43f4-93d8-e8de0ac974bb" />
-<br/>
-
+<br/><br/>
+   
 (10) 명령어가 정상적으로 실행되면 웹브라우저에서 "http://localhost:5173" 주소로 접속시 아래와 같은 화면이 열리는 것을 확인할 수 있다.   
 <img width="800" height="500" alt="image_3" src="https://github.com/user-attachments/assets/1aba65ee-632e-492b-9c31-8b9e92d07871" />
 <br/><br/>
-
     
 (11) AI와 소통하게 되면 기존 LLM 응답과는 달리 최신 정보를 바탕으로 응답해주는 것을 알 수 있다.               
 <img width="800" height="500" alt="image_4" src="https://github.com/user-attachments/assets/268525d2-8f36-4c51-92b3-374bc7aedd7f" />
@@ -293,6 +292,7 @@ cmd 창은 관리자 권한으로 실행해주는 것을 추천한다.
 [C:\실제 경로\ 경로의 run-all.bat 파일 수정]   
 - "실제 경로"라고 적힌 부분을 폴더가 있는 실제 경로로 바꿔서 기입한다.   
 <img width="800" height="400" alt="image_7" src="https://github.com/user-attachments/assets/ad3afd23-f957-44aa-9be8-7ad07a6b9a3a" />
+
 
 
 
