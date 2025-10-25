@@ -282,16 +282,17 @@ cmd 창은 관리자 권한으로 실행해주는 것을 추천한다.
 - 실제 제미나이 API 키와 실제 퍼플렉시티 API 키를 기입한다.   
 - 로컬 PC에서 서비스를 쓸 경우 랭스미스 API 키는 기입할 필요 없다.
 <img width="500" height="300" alt="image_5" src="https://github.com/user-attachments/assets/5f62309a-76a8-4f28-a3f1-64f1b37091d9" />
-<br/>
+<br/><br/>
    
 [C:\실제 경로\backend 경로의 .env 파일 수정]      
 - 실제 제미나이 API 키와 실제 퍼플렉시티 API 키를 기입한다.   
 <img width="500" height="300" alt="image_6" src="https://github.com/user-attachments/assets/cf3b2fe6-ad48-47be-bbe0-3a506a7c8827" />
-<br/>
+<br/><br/>
    
 [C:\실제 경로\ 경로의 run-all.bat 파일 수정]   
 - "실제 경로"라고 적힌 부분을 폴더가 있는 실제 경로로 바꿔서 기입한다.   
 <img width="800" height="400" alt="image_7" src="https://github.com/user-attachments/assets/ad3afd23-f957-44aa-9be8-7ad07a6b9a3a" />
+
 
 
 
