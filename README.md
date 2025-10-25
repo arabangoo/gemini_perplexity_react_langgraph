@@ -167,7 +167,7 @@ npm install
 cd backend
 langgraph dev
 ```
-   
+<br/>   
 **역할:**   
 - LangGraph 개발 서버 시작   
 - FastAPI 서버 실행 (포트 2024 - 로컬 개발 모드 기본값)    
@@ -179,7 +179,7 @@ langgraph dev
 cd frontend
 npm run dev
 ```
-   
+<br/>   
 **역할:**   
 - Vite 개발 서버 시작 (포트 5173)   
 - React 앱 실행   
@@ -196,7 +196,7 @@ start "Frontend" cmd /k "cd frontend && npm run dev"
 docker build -t gemini-fullstack-langgraph .
 docker-compose up -d
 ```
-   
+<br/>   
 역할:   
 1. Docker 이미지 빌드 (프론트+백엔드 통합)   
 2. PostgreSQL, Redis, API 서버 모두 시작   
@@ -213,10 +213,10 @@ environment:
 GEMINI_API_KEY: ${GEMINI_API_KEY}
 PERPLEXITY_API_KEY: ${PERPLEXITY_API_KEY}
 ```
-    
+<br/>    
 1. Docker 컨테이너 안에서도 Perplexity API 키 필요   
 2. 루트 `.env` 파일에서 읽어옴   
-<br/>
+<br/><br/>
 
 (6) 서비스 워크플로우   
 ### 로컬 개발 모드 (run-all.bat 실행 시)   
@@ -290,6 +290,7 @@ cmd 창은 관리자 권한으로 실행해주는 것을 추천한다.
 [C:\실제 경로\ 경로의 run-all.bat 파일 수정]   
 - "실제 경로"라고 적힌 부분을 폴더가 있는 실제 경로로 바꿔서 기입한다.   
 <img width="800" height="400" alt="image_7" src="https://github.com/user-attachments/assets/ad3afd23-f957-44aa-9be8-7ad07a6b9a3a" />
+
 
 
 
