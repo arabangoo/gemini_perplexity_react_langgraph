@@ -232,8 +232,7 @@ PERPLEXITY_API_KEY: ${PERPLEXITY_API_KEY}
 5. 사용자가 질문 입력 ("AWS ECS vs EKS?")    
 6. 프론트엔드가 백엔드로 POST /api/research 요청 { "query": "AWS ECS vs EKS?", "session_id": "abc123" }    
 7. 백엔드 워크플로우 실행: extract_query → search_perplexity → analyze_with_gemini → (부족하면 재검색) → generate_final_answer    
-8. 백엔드가 JSON 응답   
-{ "answer": "ECS는...", "citations": ["https://aws.amazon.com/..."], "related_questions": ["EKS의 비용은?"], "iterations": 2, "session_id": "abc123" }    
+8. 백엔드가 JSON 응답: { "answer": "ECS는...", "citations": ["https://aws.amazon.com/..."], "related_questions": ["EKS의 비용은?"], "iterations": 2, "session_id": "abc123" }    
 10. 프론트엔드가 답변 화면에 표시   
 	- 마크다운 렌더링   
 	- 출처 링크   
@@ -291,6 +290,7 @@ cmd 창은 관리자 권한으로 실행해주는 것을 추천한다.
 [C:\실제 경로\ 경로의 run-all.bat 파일 수정]   
 - "실제 경로"라고 적힌 부분을 폴더가 있는 실제 경로로 바꿔서 기입한다.   
 <img width="800" height="400" alt="image_7" src="https://github.com/user-attachments/assets/ad3afd23-f957-44aa-9be8-7ad07a6b9a3a" />
+
 
 
 
