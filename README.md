@@ -17,7 +17,7 @@
 명령어 (2) : node --version
 명령어 (3) : npm --version
 <img width="500" height="160" alt="image_1" src="https://github.com/user-attachments/assets/c2453554-2cc6-42e4-b172-1acfe3b53084" />
-<br/>
+<br/><br/>
                    
 (2) GitHub 리포지토리에 올라가 있는 파일 구성은 아래와 같다.   
 ```txt
@@ -50,7 +50,7 @@
         └── src/
             └── App.tsx      ← React 컴포넌트
 ```
-<br/>
+<br/><br/>
         
 (3) 백엔드 핵심 파일 설명   
 [backend/.env] - Gemini API와 Perplexity API를 사용하기 위한 인증 키   
@@ -290,6 +290,7 @@ cmd 창은 관리자 권한으로 실행해주는 것을 추천한다.
 [C:\실제 경로\ 경로의 run-all.bat 파일 수정]   
 - "실제 경로"라고 적힌 부분을 폴더가 있는 실제 경로로 바꿔서 기입한다.   
 <img width="800" height="400" alt="image_7" src="https://github.com/user-attachments/assets/ad3afd23-f957-44aa-9be8-7ad07a6b9a3a" />
+
 
 
 
