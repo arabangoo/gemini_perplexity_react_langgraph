@@ -117,25 +117,27 @@ async def research(request: QueryRequest):
 [frontend/src/App.tsx]
 ```txt
 export default function App() {
-const [messages, setMessages] = useState<Message[]>([])
-const [sessionId, setSessionId] = useState<string | null>(null)
-// 세션 ID 생성 (브라우저별 고유)
-useEffect(() => {
-let sid = sessionStorage.getItem('chat_session_id')
-if (!sid) {
-sid = generateUUID()
-sessionStorage.setItem('chat_session_id', sid)
-}
-setSessionId(sid)
-}, [])
-// 메시지 전송
-const handleSubmit = async () => {
-const response = await axios.post(${API_URL}/api/research, {
-query: input,
-session_id: sessionId
-})
-setMessages([...messages, assistantMessage])
-}
+  const [messages, setMessages] = useState<Message[]>([])
+  const [sessionId, setSessionId] = useState<string | null>(null)
+
+  // 세션 ID 생성 (브라우저별 고유)
+  useEffect(() => {
+    let sid = sessionStorage.getItem('chat_session_id')
+    if (!sid) {
+      sid = generateUUID()
+      sessionStorage.setItem('chat_session_id', sid)
+    }
+    setSessionId(sid)
+  }, [])
+
+  // 메시지 전송
+  const handleSubmit = async () => {
+    const response = await axios.post(`${API_URL}/api/research`, {
+      query: input,
+      session_id: sessionId
+    })
+    setMessages([...messages, assistantMessage])
+  }
 }
 ```
    
@@ -294,6 +296,7 @@ LANGSMITH_STUDIO_AUTO_OPEN=false
 ```
 
 > **참고**: 모든 실행 스크립트(.bat)는 파일 위치를 자동으로 인식하므로 경로를 별도로 수정할 필요가 없다.
+
 
 
 
