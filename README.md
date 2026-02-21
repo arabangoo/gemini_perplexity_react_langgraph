@@ -288,10 +288,13 @@ GEMINI_API_KEY=your_gemini_api_key_here
 PERPLEXITY_API_KEY=your_perplexity_api_key_here
 HOST=0.0.0.0
 PORT=8000
+
+# Disable LangSmith Studio auto-open
 LANGSMITH_STUDIO_AUTO_OPEN=false
 ```
 
 > **참고**: 모든 실행 스크립트(.bat)는 파일 위치를 자동으로 인식하므로 경로를 별도로 수정할 필요가 없다.
+
 
 
 
