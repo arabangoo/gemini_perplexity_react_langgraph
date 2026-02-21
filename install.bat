@@ -4,7 +4,7 @@ echo Installing dependencies...
 echo ========================================
 echo.
 
-cd /d C:\git_clone\gemini-react-langgraph-fullstack
+cd /d "%~dp0"
 
 echo [1/2] Installing backend...
 cd backend

@@ -21,8 +21,9 @@
                    
 (2) GitHub 리포지토리에 올라가 있는 파일 구성은 아래와 같다.   
 ```txt
-├── 실행 관련 파일들 
-│   ├── install.bat          ← 의존성 설치 자동화
+├── 실행 관련 파일들
+│   ├── install-admin.bat    ← 의존성 설치 (관리자 권한 자동 요청) ← 권장
+│   ├── install.bat          ← 의존성 설치 (일반 권한)
 │   ├── run-backend.bat      ← 백엔드만 실행
 │   ├── run-frontend.bat     ← 프론트엔드만 실행
 │   ├── run-all.bat          ← 백엔드+프론트엔드 동시 실행
@@ -55,9 +56,9 @@
 (3) 백엔드 핵심 파일 설명   
 [backend/.env] - Gemini API와 Perplexity API를 사용하기 위한 인증 키   
 ```txt
-GEMINI_API_KEY=실제 제미나이 API 키 기입   
-PERPLEXITY_API_KEY=실제 퍼플렉시티 API 키 기입   
-HOST=0.0.0.0   
+GEMINI_API_KEY=your_gemini_api_key_here
+PERPLEXITY_API_KEY=your_perplexity_api_key_here
+HOST=0.0.0.0
 PORT=8000
 ```
 
@@ -276,22 +277,21 @@ cmd 창은 관리자 권한으로 실행해주는 것을 추천한다.
 <img width="800" height="500" alt="image_4" src="https://github.com/user-attachments/assets/268525d2-8f36-4c51-92b3-374bc7aedd7f" />
 <br/><br/>
 
-(12) GitHub 리포지토리의 코드를 복사해서 각자 로컬 PC에서 활용하기 위해서는 아래 3개 파일을 수정해야 한다.    
+(12) GitHub 리포지토리의 코드를 복사해서 각자 로컬 PC에서 활용하기 위해서는 아래 파일을 수정해야 한다.
 
-[C:\실제 경로\ 경로의 .env 파일 수정]   
-- 실제 제미나이 API 키와 실제 퍼플렉시티 API 키를 기입한다.   
+[backend/.env 파일 수정]
+- 실제 Gemini API 키와 Perplexity API 키를 기입한다.
 - 로컬 PC에서 서비스를 쓸 경우 랭스미스 API 키는 기입할 필요 없다.
-<img width="500" height="300" alt="image_5" src="https://github.com/user-attachments/assets/5f62309a-76a8-4f28-a3f1-64f1b37091d9" />
-<br/><br/>
-   
-[C:\실제 경로\backend 경로의 .env 파일 수정]      
-- 실제 제미나이 API 키와 실제 퍼플렉시티 API 키를 기입한다.   
-<img width="500" height="300" alt="image_6" src="https://github.com/user-attachments/assets/cf3b2fe6-ad48-47be-bbe0-3a506a7c8827" />
-<br/><br/>
-   
-[C:\실제 경로\ 경로의 run-all.bat 파일 수정]   
-- "실제 경로"라고 적힌 부분을 폴더가 있는 실제 경로로 바꿔서 기입한다.   
-<img width="800" height="400" alt="image_7" src="https://github.com/user-attachments/assets/ad3afd23-f957-44aa-9be8-7ad07a6b9a3a" />
+
+```env
+GEMINI_API_KEY=your_gemini_api_key_here
+PERPLEXITY_API_KEY=your_perplexity_api_key_here
+HOST=0.0.0.0
+PORT=8000
+LANGSMITH_STUDIO_AUTO_OPEN=false
+```
+
+> **참고**: 모든 실행 스크립트(.bat)는 파일 위치를 자동으로 인식하므로 경로를 별도로 수정할 필요가 없다.
 
 
 

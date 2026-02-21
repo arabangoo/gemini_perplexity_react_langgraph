@@ -4,7 +4,7 @@ echo Installing with Virtual Environment
 echo ========================================
 echo.
 
-cd /d C:\git_clone\gemini-react-langgraph-fullstack
+cd /d "%~dp0"
 
 echo [1/3] Creating virtual environment...
 cd backend
